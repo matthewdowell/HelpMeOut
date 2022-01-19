@@ -112,3 +112,5 @@ package-lock.json
 
 # DS Store
 *.DS_Store
+
+client/dist/bundle.js.LICENSE.txt

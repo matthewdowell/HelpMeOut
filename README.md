@@ -10,12 +10,28 @@ Jobs will be both searchable and filterable. Once a job has been claimed by a co
 Upon completion of a job, the client will be able to review the contractor's work. This will allow subsequent users to pick contractors based on a peer-reviewed system of tranparency.
 
 ## Installation
- 1) Fork and clone repo from Github via: 'https://github.com/OceansSeven/HelpMeOut.git'
- 2) Navigate to project folder within terminal
- 3) Run command *npm install*
- 4) Initialize the server with command *npm start*
- 5) Initialize the chat server with *npm run startChat*
- 6) Open the webapp in the browser at localhost:3000
+ 1) Fork and clone repo from Github via: 'https://github.com/matthewdowell/HelpMeOut.git'
+ ```bash
+git clone https://github.com/matthewdowell/HelpMeOut.git
+ ```
+ 2) Open project folder in preferred code editor
+ 3) Install dependencies:
+ ```bash
+ npm install
+ ```
+ 4) Build application bundle:
+ ```bash
+ npm run build
+ ```
+ 5) Start server:
+ ```bash
+ npm start
+ ```
+ 6) Initialize chat server:
+ ```bash
+ npm run startChat
+ ```
+ 7) Open the webapp in your browser at http://localhost:3000/
 
 ## Dependencies
   - [React]

@@ -21,6 +21,9 @@ module.exports = function (passport) {
     })
   );
 
+  // good stackoverflow article explaning serialize vs. deserialize
+  // https://stackoverflow.com/questions/27637609/understanding-passport-serialize-deserialize
+
   passport.serializeUser((user, cb) => {
     cb(null, user.id);
   });

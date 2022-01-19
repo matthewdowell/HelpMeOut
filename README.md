@@ -40,7 +40,7 @@ git clone https://github.com/matthewdowell/HelpMeOut.git
  ```bash
  npm run startChat
  ```
- 9) Open the webapp in your browser at http://localhost:3000/
+ 9) Open the web app in your browser at http://localhost:3000/
 
 ## Dependencies
   - [React]

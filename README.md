@@ -19,19 +19,28 @@ git clone https://github.com/matthewdowell/HelpMeOut.git
  ```bash
  npm install
  ```
- 4) Build application bundle:
+ 4) Create .env file with the following variables for postgreSQL database access:
+ ```bash
+ DB_USER=your psql username here
+ DB_PASSWORD=your psql password here
+ ```
+ 5) Load schema file:
+ ```bash
+ psql -h localhost -d postgres -U [your username] -f ./schema.SQL
+ ```
+ 6) Build application bundle:
  ```bash
  npm run build
  ```
- 5) Start server:
+ 7) Start server:
  ```bash
  npm start
  ```
- 6) Initialize chat server:
+ 8) Initialize chat server:
  ```bash
  npm run startChat
  ```
- 7) Open the webapp in your browser at http://localhost:3000/
+ 9) Open the webapp in your browser at http://localhost:3000/
 
 ## Dependencies
   - [React]
